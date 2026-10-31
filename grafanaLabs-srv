@@ -1,0 +1,25 @@
+
+apt install libfontconfig1 -y
+apt install musl -y
+
+wget https://dl.grafana.com/grafana-enterprise/release/13.3.0/grafana-enterprise_13.3.0_40412481033_linux_amd64.deb
+
+dpkg -i grafana-enterprise_13.3.0_40412481033_linux_amd64.deb
+
+> systemctl daemon-reload
+> systemctl enable grafana-server.service
+> sysyemctl status grafana-server 
+> systemctl restart grafana-server
+
+> apt install net-tools -y
+
+> apt install htop -y
+
+> htop
+> netstat -antp
+
+http://<IP_do_host:porta>/
+
+usuario: admin
+senha: admin
+
