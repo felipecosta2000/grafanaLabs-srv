@@ -5,7 +5,8 @@ apt install musl -y
 
 wget https://dl.grafana.com/grafana-enterprise/release/13.3.0/grafana-enterprise_13.3.0_40412481033_linux_amd64.deb
 
-apt install libc-bin -y  (which start-stop-daemon)
+apt install libc-bin -y  
+start-stop-daemon
 
 dpkg -i grafana-enterprise_13.3.0_40412481033_linux_amd64.deb
 
