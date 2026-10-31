@@ -8,6 +8,8 @@ wget https://dl.grafana.com/grafana-enterprise/release/13.3.0/grafana-enterprise
 apt install libc-bin -y  
 start-stop-daemon
 
+apt install dpkg
+
 dpkg -i grafana-enterprise_13.3.0_40412481033_linux_amd64.deb
 
 > systemctl daemon-reload
