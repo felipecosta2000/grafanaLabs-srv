@@ -23,7 +23,7 @@ dpkg -i grafana-enterprise_13.3.0_40412481033_linux_amd64.deb
 
 > systemctl daemon-reload
 > systemctl enable grafana-server.service
-> sysyemctl status grafana-server 
+> systemctl status grafana-server 
 > systemctl restart grafana-server
 
 > apt install net-tools -y
