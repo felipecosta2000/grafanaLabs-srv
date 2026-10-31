@@ -1,3 +1,4 @@
+Script de instalação fácil em Debian 12 com Grafana Labs 13.
 
 apt install libfontconfig1 -y
 apt install musl -y
