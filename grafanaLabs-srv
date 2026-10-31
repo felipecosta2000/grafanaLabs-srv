@@ -10,7 +10,16 @@ start-stop-daemon
 
 apt install dpkg
 dpkg -S start-stop-daemon
-ls -l /sbin/start-stop-daemon
+</sbin/start-stop-daemon>
+
+
+Coso de erro:
+1 ls -l /sbin/start-stop-daemon
+execute: sudo chmod 755 /sbin/start-stop-daemon
+Caso de erro:
+2 echo $PATH
+execute: export PATH=$PATH:/sbin
+
 dpkg -i grafana-enterprise_13.3.0_40412481033_linux_amd64.deb
 
 > systemctl daemon-reload
